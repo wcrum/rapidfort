@@ -113,7 +113,7 @@ entries:
   rapidfort:
   - apiVersion: v2
     appVersion: 1.1.40
-    created: "2024-07-02T01:41:05.465907982Z"
+    created: "2024-07-02T01:46:45.381293314Z"
     dependencies:
     - condition: backend.enabled
       name: backend
@@ -180,7 +180,8 @@ entries:
       repository: file://deps/fluent-bit/
       version: 1.1.0
     description: A Helm chart for Kubernetes
-    digest: 5ddb99876847c89e77d6dec396da90da5df9143df0ed2cb163161f2b7a05e850
+    digest: b03ee32fd4ead5d4e4bfe220384ab0665209cc67749c25df60390cfa0e8b2de2
+    icon: https://wcrum.github.io/rapidfort/rapidfort_logo.jpg
     name: rapidfort
     type: application
     urls:
@@ -252,4 +253,4 @@ entries:
     urls:
     - charts/vulns-db-1.1.0.tgz
     version: 1.1.0
-generated: "2024-07-02T01:41:05.454610114Z"
+generated: "2024-07-02T01:46:45.370998285Z"
