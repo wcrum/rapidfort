@@ -110,6 +110,82 @@ entries:
     urls:
     - charts/mysql-1.1.0.tgz
     version: 1.1.0
+  rapidfort:
+  - apiVersion: v2
+    appVersion: 1.1.40
+    created: "2024-07-02T01:41:05.465907982Z"
+    dependencies:
+    - condition: backend.enabled
+      name: backend
+      repository: file://deps/backend/
+      version: 1.1.0
+    - condition: iso-master.enabled
+      name: iso-master
+      repository: file://deps/iso-master/
+      version: 1.1.0
+    - condition: rf-scan.enabled
+      name: rf-scan
+      repository: file://deps/rf-scan/
+      version: 1.1.0
+    - condition: frontrow.enabled
+      name: frontrow
+      repository: file://deps/frontrow/
+      version: 1.1.0
+    - condition: rfapi.enabled
+      name: rfapi
+      repository: file://deps/rfapi/
+      version: 1.1.0
+    - condition: rfpubsub.enabled
+      name: rfpubsub
+      repository: file://deps/rfpubsub/
+      version: 1.1.0
+    - condition: aggregator.enabled
+      name: aggregator
+      repository: file://deps/aggregator/
+      version: 1.1.0
+    - condition: keycloak.enabled
+      name: keycloak
+      repository: file://deps/keycloak/
+      version: 1.1.0
+    - condition: redis.enabled
+      name: redis
+      repository: file://deps/redis/
+      version: 1.1.0
+    - condition: files-redis.enabled
+      name: files-redis
+      repository: file://deps/files-redis/
+      version: 1.1.0
+    - condition: lock-redis.enabled
+      name: lock-redis
+      repository: file://deps/lock-redis/
+      version: 1.1.0
+    - condition: mysql.enabled
+      name: mysql
+      repository: file://deps/mysql/
+      version: 1.1.0
+    - condition: runner.enabled
+      name: runner
+      repository: file://deps/runner/
+      version: 1.1.0
+    - condition: vulns-db.enabled
+      name: vulns-db
+      repository: file://deps/vulns-db/
+      version: 1.1.0
+    - condition: fileupload.enabled
+      name: fileupload
+      repository: file://deps/fileupload/
+      version: 1.1.0
+    - condition: logger.enabled
+      name: fluent-bit
+      repository: file://deps/fluent-bit/
+      version: 1.1.0
+    description: A Helm chart for Kubernetes
+    digest: 5ddb99876847c89e77d6dec396da90da5df9143df0ed2cb163161f2b7a05e850
+    name: rapidfort
+    type: application
+    urls:
+    - https://wcrum.github.io/rapidfort/rapidfort-1.1.40.tgz
+    version: 1.1.40
   redis:
   - apiVersion: v2
     appVersion: "6.2"
@@ -176,4 +252,4 @@ entries:
     urls:
     - charts/vulns-db-1.1.0.tgz
     version: 1.1.0
-generated: "2023-09-27T09:08:53.093329959-07:00"
+generated: "2024-07-02T01:41:05.454610114Z"
